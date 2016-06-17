@@ -232,6 +232,10 @@ h6 {
   margin: 0 auto;
 }
 
+.bg-medium-gray {
+  background-color: #ddddef;
+}
+
 .bg-light-gray {
   background-color: #f7f7f7;
 }
@@ -579,57 +583,57 @@ body {
     font-size: 1.5em;
   }
 }
-section#contact {
+section#contact-form {
   background-color: #222;
   background-image: url("/images/map.png");
   background-position: center;
   background-repeat: no-repeat;
 }
-section#contact .section-heading {
+section#contact-form .section-heading {
   color: #fff;
 }
-section#contact .form-group {
+section#contact-form .form-group {
   margin-bottom: 25px;
 }
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#contact-form .form-group input,
+section#contact-form .form-group textarea {
   padding: 20px;
 }
-section#contact .form-group input.form-control {
+section#contact-form .form-group input.form-control {
   height: auto;
 }
-section#contact .form-group textarea.form-control {
+section#contact-form .form-group textarea.form-control {
   height: 236px;
 }
-section#contact .form-control:focus {
+section#contact-form .form-control:focus {
   border-color: #9370DB;
   box-shadow: none;
 }
-section#contact::-webkit-input-placeholder {
+section#contact-form::-webkit-input-placeholder {
   color: #bbb;
   font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-section#contact:-moz-placeholder {
+section#contact-form:-moz-placeholder {
   color: #bbb;
   font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-section#contact::-moz-placeholder {
+section#contact-form::-moz-placeholder {
   color: #bbb;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-section#contact:-ms-input-placeholder {
+section#contact-form:-ms-input-placeholder {
   color: #bbb;
   font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-section#contact .text-danger {
+section#contact-form .text-danger {
   color: #e74c3c;
 }
 
