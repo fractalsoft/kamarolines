@@ -519,6 +519,8 @@ body {
 .navbar-default .navbar-brand {
   color: #9370DB;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-size: 32px;
+  margin-top: -2px;
 }
 .navbar-default .navbar-brand.active, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
   color: #a0a0f0;
